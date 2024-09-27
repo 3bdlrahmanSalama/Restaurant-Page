@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Avengeance";
+    src: url("fonts/Avengeance.otf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,91,255,1) 100%);
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Avengeance";
+}
+
+nav {
+    margin-block-end: 10px;
+}
+
+#content {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+}
+
+.meal-card {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px;
+    width: 750px;
+}
+
+.meal-card img {
+    width: 250px;
+    border-radius: 10px;
+}
